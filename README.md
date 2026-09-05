@@ -215,6 +215,14 @@ Mondays, busy weekends, hoodies picking up in autumn, stock draining between
 restocks — so the patterns are real enough for the forecaster to find. No real
 customer data is in this repo, and the Shopify sync anonymises what it pulls.
 
+## Design decisions
+
+The non-obvious choices — one provider-agnostic gateway, no tool-calling in the
+copilot, the forecast shipping as a blend, the fine-tune shipping off — each have
+a short record in [`docs/adr/`](docs/adr/). [`CONTEXT.md`](CONTEXT.md) fixes the
+vocabulary, [`AGENTS.md`](AGENTS.md) lists the invariants, and
+[`ROADMAP.md`](ROADMAP.md) has what is next and what this deliberately is not.
+
 ## Licence
 
 MIT.
